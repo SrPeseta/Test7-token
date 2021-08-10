@@ -1,0 +1,23 @@
+{
+  "name": "test7-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrPeseta/Test7-token.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SrPeseta/Test7-token/issues"
+  },
+  "homepage": "https://github.com/SrPeseta/Test7-token#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "web3": "^1.5.1"
+  }
+}
