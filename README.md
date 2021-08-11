@@ -3,7 +3,7 @@
 ## Contrato
 
 El contrato se encuentra [aquí](contract/Test7Token.sol).
-Se trata de un contrato BEP20 que he sacado de [esta fuente](https://docs.binance.org/smart-chain/developer/BEP20Token.template) que ya tiene el método de quema de tokens (que se llama burn). Y el método mint que es el que permite emitir nuevos tokens.
+Se trata de un contrato BEP20 que he sacado de [esta fuente](https://docs.binance.org/smart-chain/developer/BEP20Token.template) que ya tiene el método de quema de tokens (que se llama burn) y el método mint que es el que permite emitir nuevos tokens.
 El contrato está validado en esta dirección de la red de prueba de BSC [enlace BSCScan](https://testnet.bscscan.com/address/0x216ba6E5D9429Cc4f14B86Ab2C30d89Cc80F9C6c).
 La dirección del contrato es: *0x216ba6E5D9429Cc4f14B86Ab2C30d89Cc80F9C6c*
 
