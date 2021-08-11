@@ -89,7 +89,7 @@
             method: 'eth_requestAccounts',
           })
           
-          const tokenInst = new web3.eth.Contract(tokenABI,'0x8E7E78589C61313994945362F9D87f0331BF948A')
+          const tokenInst = new web3.eth.Contract(tokenABI,'0x216ba6E5D9429Cc4f14B86Ab2C30d89Cc80F9C6c')
           var numDecimals = await tokenInst.methods.decimals().call();
           
         for(i=0;i<accs.length;i++){

@@ -567,7 +567,7 @@ contract Test7Token is Context, IBEP20, Ownable {
    * - `msg.sender` must be the token owner
    */
   function burn(uint256 amount) public onlyOwner returns (bool) {
-    _mint(_msgSender(), amount);
+    _burn(_msgSender(), amount);
     return true;
   }
 
